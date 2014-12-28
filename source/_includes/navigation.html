@@ -13,14 +13,14 @@
 				{% if site.email %}<li>
 					<a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i> Email</a>
 				</li>{% endif %}
+                               {% if site.github_user %}<li>
+                                        <a href="http://github.com/{{ site.github_user }}"><i class="fa fa-github"></i> GitHub</a>
+                                </li>{% endif %}
 				{% if site.twitter_user %}<li>
 					<a href="http://twitter.com/{{ site.twitter_user }}"><i class="fa fa-twitter"></i> Twitter</a>
 				</li>{% endif %}
 				{% if site.googleplus_user %}<li>
 					<a href="http://plus.google.com/{{ site.googleplus_user }}"><i class="fa fa-google-plus"></i> Google+</a>
-				</li>{% endif %}
-				{% if site.github_user %}<li>
-					<a href="http://github.com/{{ site.github_user }}"><i class="fa fa-github"></i> GitHub</a>
 				</li>{% endif %}
 			</ul><!-- /.dl-submenu -->
 		</li>
